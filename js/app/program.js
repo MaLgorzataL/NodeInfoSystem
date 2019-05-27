@@ -17,7 +17,6 @@ process.stdin.on('readable', function() {
                 process.stdout.write('hello!\n');
                 break;
             case '/getOSinfo':
-                case '/getOSinfo':
                     OSinfo.print();
                     Timeinfo.changeTimeinfo();
                     break;
